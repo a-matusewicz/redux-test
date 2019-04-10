@@ -1,0 +1,17 @@
+{
+  "name": "starterpack-a-matusewicz",
+  "version": "1.0.0",
+  "description": "starterpack for CS52",
+  "main": "src/index.js",
+  "repository": "https://github.com/dartmouth-cs52-19S/starterpack-a-matusewicz.git",
+  "author": "a-matusewicz <anna.d.mat@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "devDependencies": {
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.3.1"
+  }
+}
