@@ -1,3 +1,4 @@
+// TEST
 // keys for actiontypes
 export const ActionTypes = {
   INCREMENT: 'INCREMENT',

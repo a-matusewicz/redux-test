@@ -1,3 +1,4 @@
+// TEST
 import { ActionTypes } from '../actions';
 
 const CountReducer = (state = 0, action) => {

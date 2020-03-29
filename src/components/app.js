@@ -1,3 +1,4 @@
+// TEST
 import React from 'react';
 import '../style.scss';
 import {
@@ -12,7 +13,7 @@ const About = (props) => {
 const Welcome = (props) => {
   return (
     <div>
-            Welcome
+      Welcome
       <div>
         <Counter />
         <Controls />

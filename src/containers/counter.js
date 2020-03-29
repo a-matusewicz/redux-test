@@ -1,3 +1,4 @@
+// TEST
 import React from 'react';
 import { connect } from 'react-redux';
 import { withRouter } from 'react-router-dom';
@@ -12,7 +13,7 @@ const Counter = (props) => {
 };
 
 // connects particular parts of redux state to this components props
-const mapStateToProps = state => (
+const mapStateToProps = (state) => (
   {
     count: state.count,
   }
