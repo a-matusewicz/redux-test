@@ -3,6 +3,7 @@ import '../style.scss';
 import {
   BrowserRouter as Router, Route, NavLink, Switch,
 } from 'react-router-dom';
+import YouTube from './youtube';
 import Counter from '../containers/controls';
 import Controls from '../containers/counter';
 
@@ -32,6 +33,7 @@ const Nav = (props) => {
     <nav>
       <ul>
         <li><NavLink to="/" exact>Home</NavLink></li>
+        <li><NavLink to="/youtube" exact>YouTube</NavLink></li>
         <li><NavLink to="/about">About</NavLink></li>
         <li><NavLink to="/test/id1">test id1</NavLink></li>
         <li><NavLink to="/test/id2">test id2</NavLink></li>
@@ -47,6 +49,7 @@ const App = (props) => {
         <Nav />
         <Switch>
           <Route exact path="/" component={Welcome} />
+          <Route exact path="/youtube" component={YouTube} />
           <Route path="/about" component={About} />
           <Route exact path="/test/:id" component={Test} />
           <Route component={FallBack} />
